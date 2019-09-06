@@ -5,17 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lucifaer</groupId>
-    <artifactId>rasp_study</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>expression-agent-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>javaweb_exp_test</module>
-<<<<<<< HEAD
-        <module>agent</module>
-    </modules>
-=======
-    </modules>
 
 
->>>>>>> d53d47b... 学习构建表达式Hook
 </project>
