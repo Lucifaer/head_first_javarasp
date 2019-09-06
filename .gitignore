@@ -2,7 +2,7 @@
 ## Java
 ##########################
 *.class
-.mtj.tmp/
+.mtj.tmp
 *.jar
 *.war
 *.ear
@@ -11,7 +11,7 @@ hs_err_pid*
 ##########################
 ## Maven
 ##########################
-target/
+target
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -22,11 +22,11 @@ release.properties
 ## IntelliJ
 ##########################
 *.iml
-.idea/
+.idea
 *.ipr
 *.iws
-out/
-.idea_modules/
+out
+.idea_modules
 
 ##########################
 ## OS X
