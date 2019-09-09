@@ -47,10 +47,10 @@ public class Agent implements Opcodes {
                                                 if ("ognl.Ognl".equals(class_name)) {
                                                     methodVisitor.visitVarInsn(Opcodes.ALOAD, 0);
                                                 }else {
-                                                    mv.visitVarInsn(Opcodes.ALOAD, 1);
+                                                    methodVisitor.visitVarInsn(Opcodes.ALOAD, 1);
                                                 }
                                                 methodVisitor.visitMethodInsn(
-                                                        Opcodes.INVOKESTATIC, Agent.class.getName().replace("/", "."), "expression", "(Ljava/lang/String)V", false
+                                                        Opcodes.INVOKESTATIC, Agent.class.getName().replace(".", "/"), "expression", "(Ljava/lang/String;)V", false
                                                 );
                                             }
                                         };
@@ -70,9 +70,9 @@ public class Agent implements Opcodes {
         });
     }
 
-    public static void expression(String exp) {
+    public static void expression(String exp_demo) {
         System.err.println("---------------------------------EXP-----------------------------------------");
-        System.err.println(exp);
+        System.err.println(exp_demo);
         System.err.println("---------------------------------调用链---------------------------------------");
 
         StackTraceElement[] elements = Thread.currentThread().getStackTrace();

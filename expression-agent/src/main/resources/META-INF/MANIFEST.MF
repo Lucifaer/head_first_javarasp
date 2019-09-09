@@ -1,2 +1,2 @@
 Manifest-Version: 1.0
-Premain-Class:
+Premain-Class: com.lucifaer.expreesionAgent.Agent
