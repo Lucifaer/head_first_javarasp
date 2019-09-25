@@ -1,5 +1,5 @@
 # java rasp study
 
-代码来源于[园长的代码][1]，主要是学习一下如何构建一个基于agent和ASM的检测工具，有利于后面尝试RASP的编写。
+参考[OpenRASP][1]，尝试构建一个Java RASP
 
-[1]: https://github.com/anbai-inc/javaweb-expression
+[1]: https://github.com/baidu/openrasp

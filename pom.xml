@@ -10,12 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>javaweb_exp_test</module>
-<<<<<<< HEAD
         <module>agent</module>
     </modules>
-=======
+        <module>agent</module>
     </modules>
-
-
->>>>>>> d53d47b... 学习构建表达式Hook
 </project>

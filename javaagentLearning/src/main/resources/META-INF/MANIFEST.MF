@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Can-Redefine-Classes: true
-Can-Retransform-Classes: true
-Premain-Class: com.lucifaer.javaagentLearning.agent.PreMainTranceAgent
-<<<<<<< HEAD
-Agent-Class: com.lucifaer.javaagentLearning.agent.AgentMainTranceAgent
-=======
-Agent-Class: com.lucifaer.javaagentLearning.agent.AgentMainTranceAgent2
->>>>>>> 4dc4eea... 学习javaagent的两种模式,premain和agentmain
